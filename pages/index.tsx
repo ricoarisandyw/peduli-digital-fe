@@ -14,12 +14,20 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Rico Arisandy Wijaya</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
+          {`I'm Frontend Developer from Sidoarjo`}
+          <code>Happy to know you guys</code>
+          <div>
+            <button style={{
+              background: "tomato",
+              borderRadius: "15px",
+              border: "none",
+              padding: "1rem"
+            }}>Contact Me</button>
+          </div>
         </p>
 
         <div className={styles.grid}>
